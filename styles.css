@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Doodle+Shadow&family=Rubik+Doodle+Triangles&display=swap');
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Doodle+Shadow&display=swap'); */
+
+
 
 .main{
     /* width: 98vw;
@@ -12,7 +18,7 @@
     align-items: center;
     gap: 50px;
     margin-left: 25%;
-    margin-top: 9%; 
+    margin-top: 4%; 
 
     /* background-color: blue; */
 }
@@ -37,7 +43,7 @@ body{
     box-shadow: -4px -4px 4px rgba(250, 0, 20, 0.4); */
     box-shadow: 0px 9px 30px rgba(234, 119, 226, 0.5);
     margin-bottom: 10%;
-    
+
    
   
   
@@ -116,9 +122,10 @@ body{
 		0 0 20px rgb(255, 255, 255, 1),
 		0 0 30px rgb(255, 255, 255, 1);
 }
-  
 
-@media screen and (max-width:420px) {
+
+
+@media screen and (max-width:425px) {
     .main{
         display: flex;
         flex-direction: column;
@@ -142,4 +149,17 @@ body{
     #day{
         text-align: center;
     }
+}
+
+
+h3{
+    font-size: 30px;
+    /* font-family: 'Dancing Script', cursive; */
+font-family: 'Rubik Doodle Shadow', system-ui;
+/* font-family: 'Rubik Doodle Triangles', system-ui; */
+color:blueviolet ;
+/* color: white; */
+text-align: center;
+margin-top: 3%;
+    
 }
