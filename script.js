@@ -83,8 +83,8 @@ var time = greet.getHours();
 if (time < 12) {
 	document.getElementById("greetings").innerText="Good Morning !";
 }
-if(time < 17){
-	document.getElementById("greetings").innerText="Good Evening !";
+else if(time <17){
+	document.getElementById("greetings").innerText="Good  Afternoon !";
 }
 
 
@@ -92,7 +92,7 @@ if (time == 12) {
   document.getElementById("greetings").innerText="Get a lunch";
 }else{
 	
-		document.getElementById("greetings").innerText="Good  Afternoon !";
+		document.getElementById("greetings").innerText="Good Evening !";
 	
 }
 
