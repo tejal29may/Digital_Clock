@@ -85,14 +85,16 @@ if (time < 12) {
 }
 else if(time <17){
 	document.getElementById("greetings").innerText="Good  Afternoon !";
+	
+	
 }
 
 
-if (time == 12) {
+else if (time == 12) {
   document.getElementById("greetings").innerText="Get a lunch";
 }else{
 	
-		document.getElementById("greetings").innerText="Good Evening !";
+	document.getElementById("greetings").innerText="Good Evening !";
 	
 }
 
